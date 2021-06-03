@@ -3,7 +3,7 @@ import pandas as pd
 
 def get_age():
     df = pd.read_csv('data.csv')
-    return df.age.astype('string')
+    return df.age.astype('int')
 
 
 ages = get_age()
